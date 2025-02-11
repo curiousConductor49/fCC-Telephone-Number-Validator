@@ -1,0 +1,82 @@
+:root {
+    --main-grey: #5E6472;
+    --blue-grey: #AED9E0;
+    --mint-blue: #B8F2E6;
+    --cream-accent: #FAF3DD;
+    --pink-accent: #FFA69E;
+  }
+  
+  body {
+    background-color: var(--main-grey);
+    min-width: 450px;
+  }
+  
+  h1 {
+    color: var(--pink-accent);
+    border-bottom: 2px var(--mint-blue) solid;
+    font-family: "Indie Flower", Palatino;
+    font-size: 60px;
+    text-align: center;
+  }
+  
+  #main-box {
+    border: 3px var(--cream-accent) solid;
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  #user-input {
+    font-family: "Josefin Slab", Roboto;
+    font-size: 45px;
+    color: var(--pink-accent);
+    width: 425px;
+    padding: 15px;
+    border: 5px var(--blue-grey) dashed;
+  }
+  
+  #btn-box {
+    margin-top: 15px;
+    padding: 10px;
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  #check-btn, #clear-btn {
+    font-family: "Josefin Slab", Roboto;
+    font-size: 30px;
+    height: 50px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px var(--blue-grey) solid;
+    color: var(--main-grey);
+  }
+  
+  span {
+    font-family: "Redacted Script";
+  }
+  
+  #results-div {
+    font-family: "Josefin Slab", Roboto;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 180px;
+    max-width: 400px;
+    padding: 15px;
+    margin: 50px auto;
+    overflow: scroll;
+    background-color: var(--cream-accent);
+    color: var(--pink-accent);
+    border-left: 8px var(--pink-accent) dashed;
+    border-top: 12px var(--mint-blue) solid;
+    border-bottom: 12px var(--blue-grey) solid;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }  
